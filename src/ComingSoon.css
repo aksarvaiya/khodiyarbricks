@@ -1,0 +1,41 @@
+/* Full white background */
+.coming-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: #ffffff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .coming-wrapper {
+    height: 75vh;
+  }
+}
+
+.coming-inner {
+  text-align: center;
+  padding: 5px;
+}
+
+/* Logo */
+.logo {
+  width: 230px;
+  margin-bottom: 5px;
+}
+
+/* Title */
+h1 {
+  font-size: 2.8rem;
+  color: #ff8b6a;
+  margin-bottom: 5px;
+}
+
+/* Subtitle */
+p {
+  color: #444;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
